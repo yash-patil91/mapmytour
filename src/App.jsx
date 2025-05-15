@@ -9,14 +9,16 @@ import TeamSlider from './TeamSlider'
 import RecentGallery from './RecentGallery'
 import PopularTourSlider from './PopularTourSlider'
 import TravelCard from './TravelCard'
+import ScrollToTop from './ScrollToTop'
 
 function App() {
 
   return (
     <div >
-      {/* <CursorFollower /> */}
-      <TravelCard/>
-      <PopularTourSlider/>
+      <CursorFollower />
+      <ScrollToTop />
+      <TravelCard />
+      <PopularTourSlider />
       <RecentGallery />
       <StatsCircles />
       <TeamSlider />
