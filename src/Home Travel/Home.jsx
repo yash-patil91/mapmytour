@@ -7,21 +7,23 @@ import TeamSlider from './TeamSlider';
 import TestimonialSlider from './TestimonialSlider';
 import BrandsLogo from './BrandsLogo';
 import TravelCardSlider from './TravelCardSlider';
+import TourCategorySlider from './TourCategorySlider';
 
 const Home = () => {
-  return (
-    <div>
-      <PopularDestination />
-      <TravelCard />
-      <PopularTourSlider />
-      <RecentGallery />
-      <StatsCircles />
-      <TeamSlider />
-      <TestimonialSlider />
-      <BrandsLogo />
-      <TravelCardSlider />
-    </div>
-  );
+    return (
+        <div>
+            <TourCategorySlider />
+            <PopularDestination />
+            <TravelCard />
+            <PopularTourSlider />
+            <RecentGallery />
+            <StatsCircles />
+            <TeamSlider />
+            <TestimonialSlider />
+            <BrandsLogo />
+            <TravelCardSlider />
+        </div>
+    );
 };
 
 export default Home;

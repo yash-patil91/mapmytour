@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+
+.font-cursive {
+  font-family: 'Great Vibes', cursive;
+}
+
 /*------------------- 4.00. Counter  -------------------*/
 .counter-card-wrap {
   margin: 50px 0 25px 0;
@@ -26,7 +31,7 @@
 }
 
 
-/*------------------- Footer  -------------------*/
+/*------------------- Footer Subscribe button  -------------------*/
 
 .button-animate {
   position: relative;
@@ -68,9 +73,8 @@
 }
 
 
-.font-cursive {
-  font-family: 'Great Vibes', cursive;
-}
+/*------------------- pupularDestinationButton  -------------------*/
+
 
 .pupularDestinationButton {
   position: relative;
