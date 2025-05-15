@@ -64,9 +64,32 @@
 }
 
 .travel-card-slider-button-animate:hover::before {
-  width: 100%; 
+  width: 100%;
 }
 
 
+.font-cursive {
+  font-family: 'Great Vibes', cursive;
+}
 
+.pupularDestinationButton {
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+}
 
+.pupularDestinationButton::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background: white;
+  z-index: 0;
+  transition: width 0.4s ease;
+}
+
+.pupularDestinationButton:hover::before {
+  width: 100%;
+}

@@ -8,7 +8,6 @@ import TestimonialSlider from './TestimonialSlider'
 import BrandsLogo from './BrandsLogo'
 
 function App() {
-
   return (
     <div >
       <Header/>
@@ -22,4 +21,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
