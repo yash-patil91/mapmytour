@@ -1,33 +1,25 @@
-import StatsCircles from './AnimatedCircle'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import CursorFollower from './Home Travel/CursorFollower';
+import ScrollToTop from './ScrollToTop';
+import Footer from './Footer';
+import Home from './Home Travel/Home';
 import './App.css'
-import CursorFollower from './CursorFollower'
-import Footer from './Footer'
-import TravelCardSlider from './TravelCardSlider'
-import TestimonialSlider from './TestimonialSlider'
-import BrandsLogo from './BrandsLogo'
-import TeamSlider from './TeamSlider'
-import RecentGallery from './RecentGallery'
-import PopularTourSlider from './PopularTourSlider'
-import TravelCard from './TravelCard'
-import ScrollToTop from './ScrollToTop'
 
 function App() {
-
   return (
-    <div >
-      <CursorFollower />
-      <ScrollToTop />
-      <TravelCard />
-      <PopularTourSlider />
-      <RecentGallery />
-      <StatsCircles />
-      <TeamSlider />
-      <TestimonialSlider />
-      <BrandsLogo />
-      <TravelCardSlider />
-      <Footer />
-    </div>
-  )
+    <Router>
+      <div>
+        <CursorFollower />
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* Add more routes here if needed */}
+        </Routes>
+
+        <Footer />
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;

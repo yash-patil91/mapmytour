@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { testimonials } from './constants/testimonialData';
+import { testimonials } from '../constants/testimonialData';
 
 export default function TestimonialSlider() {
   return (

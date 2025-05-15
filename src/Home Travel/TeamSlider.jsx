@@ -3,7 +3,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination, Autoplay } from 'swiper/modules';
 import { Facebook, Twitter, Instagram, LinkedIn } from '@mui/icons-material';
-import { teamData } from './constants/teamsData';
+import { teamData } from '../constants/teamsData';
 
 export default function TeamSlider() {
     return (
