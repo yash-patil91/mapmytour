@@ -7,7 +7,7 @@ import { testimonials } from './constants/testimonialData';
 export default function TestimonialSlider() {
   return (
     <div className="w-full py-16 bg-gray-50 text-center">
-      <p className="text-gray-500 mb-2 uppercase tracking-wider text-sm">Testimonial</p>
+      <p className="text-black font-cursive">Testimonial</p>
       <h2 className="text-2xl sm:text-3xl font-bold mb-10">What Client Say About Us</h2>
 
       <div className="relative px-4 sm:px-6 md:px-10 lg:px-16">

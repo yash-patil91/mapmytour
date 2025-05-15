@@ -5,16 +5,24 @@ import Footer from './Footer'
 import TravelCardSlider from './TravelCardSlider'
 import TestimonialSlider from './TestimonialSlider'
 import BrandsLogo from './BrandsLogo'
+import TeamSlider from './TeamSlider'
+import RecentGallery from './RecentGallery'
+import PopularTourSlider from './PopularTourSlider'
+import TravelCard from './TravelCard'
 
 function App() {
 
   return (
     <div >
-      <CursorFollower />
+      {/* <CursorFollower /> */}
+      <TravelCard/>
+      <PopularTourSlider/>
+      <RecentGallery />
+      <StatsCircles />
+      <TeamSlider />
       <TestimonialSlider />
       <BrandsLogo />
       <TravelCardSlider />
-      <StatsCircles />
       <Footer />
     </div>
   )

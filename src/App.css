@@ -64,9 +64,11 @@
 }
 
 .travel-card-slider-button-animate:hover::before {
-  width: 100%; 
+  width: 100%;
 }
 
 
-
+.font-cursive {
+  font-family: 'Great Vibes', cursive;
+}
 
