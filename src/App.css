@@ -97,3 +97,23 @@
 .pupularDestinationButton:hover::before {
   width: 100%;
 }
+
+
+
+@keyframes slideX {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-30px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-slideX {
+  animation: slideX 5s ease-in-out infinite;
+}

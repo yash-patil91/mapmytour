@@ -19,6 +19,7 @@
     "framer-motion": "^12.10.4",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.509.0",
+    "matter-js": "^0.20.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-leaflet": "^5.0.0",
