@@ -1,25 +1,24 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import CursorFollower from './Home Travel/CursorFollower';
-import ScrollToTop from './ScrollToTop';
-import Footer from './Footer';
-import Home from './Home Travel/Home';
-import './App.css'
+import StatsCircles from './AnimatedCircle'
+import './App.css';
+import Header from './Header';
+import CursorFollower from './CursorFollower'
+import Footer from './Footer'
+import TravelCardSlider from './TravelCardSlider'
+import TestimonialSlider from './TestimonialSlider'
+import BrandsLogo from './BrandsLogo'
 
 function App() {
   return (
-    <Router>
-      <div>
-        {/* <CursorFollower /> */}
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          {/* Add more routes here if needed */}
-        </Routes>
-
-        <Footer />
-      </div>
-    </Router>
-  );
+    <div >
+      <Header/>
+      {/* <CursorFollower /> */}
+      <TestimonialSlider />
+      <BrandsLogo />
+      <TravelCardSlider />
+      <StatsCircles />
+      <Footer />
+    </div>
+  )
 }
 
 export default App;
