@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+/*------------------- 4.00. Counter  -------------------*/
+.counter-card-wrap {
+  margin: 50px 0 25px 0;
+}
+
+
+.counter-card-wrap:nth-child(even) .counter-card {
+  margin-top: 0px;
+}
+
+.counter-card-wrap:nth-child(even) .counter-card .counter-shape span {
+  top: 24px;
+  right: 43px;
+  /* Small devices */
+}
+
+
+
+.counter-card-wrap:nth-child(even) .counter-card .counter-shape:before,
+.counter-card-wrap:nth-child(even) .counter-card .counter-shape:after {
+  bottom: unset;
+  top: 10%;
+  right: 16%;
+}
+
+
+/*------------------- Footer  -------------------*/
+
+.button-animate {
+  position: relative;
+  overflow: hidden;
+}
+
+.button-animate::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background: white;
+  z-index: 0;
+  transition: width 0.4s ease;
+}
+
+.button-animate:hover::before {
+  width: 100%;
+}
+
+
+/*------------------- TravelCardSlider  -------------------*/
+.travel-card-slider-button-animate::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background: black;
+  z-index: 0;
+  transition: width 0.4s ease;
+}
+
+.travel-card-slider-button-animate:hover::before {
+  width: 100%; 
+}
+
+
+
+
