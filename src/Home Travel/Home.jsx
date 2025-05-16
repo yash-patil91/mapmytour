@@ -8,10 +8,14 @@ import TestimonialSlider from './TestimonialSlider';
 import BrandsLogo from './BrandsLogo';
 import TravelCardSlider from './TravelCardSlider';
 import TourCategorySlider from './TourCategorySlider';
+import HeroSection from './Herosection';
+import BookingSection from './BookingSection';
 
 const Home = () => {
     return (
         <div>
+            <HeroSection/>
+            <BookingSection/>
             <TourCategorySlider />
             <PopularDestination />
             <TravelCard />

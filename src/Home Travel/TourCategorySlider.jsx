@@ -1,11 +1,16 @@
 import { useState, useEffect } from "react";
+import Category1 from '../assets/img/category/category_1_4.jpg';
+import Category2 from '../assets/img/category/category_1_5.jpg';
+import Category3 from '../assets/img/category/category_1_1.jpg';
+import Category4 from '../assets/img/category/category_1_2.jpg';
+import Category5 from '../assets/img/category/category_1_3.jpg';
 
 const categories = [
-  { title: "Wildlife", image: "/assets/img/category/category_1_4.jpg" },
-  { title: "Walking", image: "/assets/img/category/category_1_5.jpg" },
-  { title: "Cruises", image: "/assets/img/category/category_1_1.jpg" },
-  { title: "Hiking", image: "/assets/img/category/category_1_2.jpg" },
-  { title: "Airbirds", image: "/assets/img/category/category_1_3.jpg" },
+  { title: "Wildlife", image: Category1 },
+  { title: "Walking", image: Category2 },
+  { title: "Cruises", image: Category3 },
+  { title: "Hiking", image: Category4 },
+  { title: "Airbirds", image: Category5 },
 ];
 
 const CurvedCategorySlider = () => {
@@ -105,7 +110,7 @@ const CurvedCategorySlider = () => {
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/5 z-0" />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
+      <div className="relative  max-w-7xl mx-auto px-4 text-center">
         <span className="text-2xl font-serif italic">Wornderful Place For You</span>
         <h2 className="text-4xl font-bold mt-2 mb-12">Tour Categories</h2>
 
